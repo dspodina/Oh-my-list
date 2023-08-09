@@ -11,7 +11,7 @@ const GroceryList = () => {
             <div className="relative flex flex-col">
                 <div>
                     <h2 className="text-2xl text-center py-4 uppercase tracking-wide">Your List</h2>
-                    <ul className="pl-6 py-12 text-lg underline tracking-wide">
+                    <ul className="pl-6 py-6 text-lg underline tracking-wide">
                         <li>Coffee</li>
                         <li>Tea</li>
                         <li>Milk</li>
@@ -28,6 +28,14 @@ const GroceryList = () => {
                     src="/1.svg"
                     alt="Logo"
                     width={200}
+                    height={0}
+                    />
+                </div>
+                <div className="absolute top-[-6px] right-12">
+                    <Image
+                    src="/clip.svg"
+                    alt="Logo"
+                    width={80}
                     height={0}
                     />
                 </div>

@@ -12,7 +12,7 @@ module.exports = {
         button: "#d93532",
         buttonHover: "#DD4A48", 
         white: "#FAFAFA", 
-        green: "#99a682",
+        green: "#76998C",
       },
       fontFamily: {
         Laila: ["indieFlower", "cursive"],

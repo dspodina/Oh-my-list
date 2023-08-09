@@ -15,7 +15,7 @@ export default function Home() {
             <ProductInput />
             <AddButton />
           </div>
-          <div className="bg-white drop-shadow-md divide-x rounded-lg lg:w-1/3 lg:mt-[-70px] mb-40 mx-12">
+          <div className="bg-white drop-shadow-md divide-x rounded-lg lg:w-1/3 lg:mt-[-70px] mb-40 mx-4">
             <GroceryList />
           </div>
         </div>

@@ -10,8 +10,8 @@ const GroceryList = () => {
         <div className={kalam.className}>
             <div className="relative flex flex-col">
                 <div>
-                    <h2 className="text-2xl text-center py-4 uppercase">Your List</h2>
-                    <ul className="pl-6 py-12 text-lg underline">
+                    <h2 className="text-2xl text-center py-4 uppercase tracking-wide">Your List</h2>
+                    <ul className="pl-6 py-12 text-lg underline tracking-wide">
                         <li>Coffee</li>
                         <li>Tea</li>
                         <li>Milk</li>

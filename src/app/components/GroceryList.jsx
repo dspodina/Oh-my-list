@@ -31,7 +31,7 @@ const GroceryList = () => {
                     height={0}
                     />
                 </div>
-                <div className="absolute top-[-6px] right-12">
+                <div className="absolute top-[-6px] right-8">
                     <Image
                     src="/clip.svg"
                     alt="Logo"

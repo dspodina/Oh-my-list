@@ -9,7 +9,7 @@ export default function Home() {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-around">
           <div className="flex flex-col items-center mb-12">
-            <div className="text-3xl tracking-wide font-extralight py-0 mb-10 max-w-md text-center">
+            <div className="text-3xl tracking-wide font-extralight py-0 mb-10 max-w-sm text-center">
               <h2>Let's get ready for grocery shopping!</h2>
             </div>
             <ProductInput />

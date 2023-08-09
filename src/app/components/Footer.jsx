@@ -13,7 +13,7 @@
 const Footer = () => {
     return (
       <footer className="bg-green h-[70px] flex items-center">
-        <div className="container mx-auto">
+        <div className="container mx-4 lg:mx-0">
           <p className="tracking-wide">Copyright © 2023</p>
         </div>
       </footer>

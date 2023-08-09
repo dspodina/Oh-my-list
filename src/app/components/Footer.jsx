@@ -14,7 +14,7 @@ const Footer = () => {
     return (
       <footer className="bg-green h-[70px] flex items-center">
         <div className="container mx-auto">
-          <p>Copyright © 2023</p>
+          <p className="tracking-wide font-extralight">Copyright © 2023</p>
         </div>
       </footer>
     );

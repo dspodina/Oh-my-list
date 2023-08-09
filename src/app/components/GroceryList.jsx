@@ -8,7 +8,7 @@ const kalam = Kalam({ subsets: ['latin'], weight: '300' })
 const GroceryList = () => {
     return (
         <div className={kalam.className}>
-            <div className="relative flex flex-col">
+            <div className="relative flex flex-col content-center justify-center">
                 <div>
                     <h2 className="text-2xl text-center py-4 uppercase tracking-wide">Your List</h2>
                     <ul className="pl-6 py-6 text-lg underline tracking-wide">
@@ -31,7 +31,7 @@ const GroceryList = () => {
                     height={0}
                     />
                 </div>
-                <div className="absolute top-[-6px] right-8">
+                <div className="absolute top-[-6px] right-2 lg:right-8">
                     <Image
                     src="/clip.svg"
                     alt="Logo"

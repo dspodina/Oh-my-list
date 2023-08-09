@@ -12,8 +12,8 @@
 
 const Footer = () => {
     return (
-      <footer className="bg-green h-[70px] flex items-center">
-        <div className="container mx-4 lg:mx-0">
+      <footer className="bg-green h-[70px] flex items-center sm:px-0 px-8">
+        <div className="container mx-auto">
           <p className="tracking-wide">Copyright © 2023</p>
         </div>
       </footer>

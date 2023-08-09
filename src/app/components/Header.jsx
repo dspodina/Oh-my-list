@@ -6,12 +6,12 @@ import Link from "next/link";
 const Header = () => {
     return (
         <div className="container mx-auto max-h-50px">
-            <div className="flex flex-row justify-between">
-                <div className="pt-2 pb-24">
+            <div className="">
+                <div className="pt-6 pb-24 sm:mx-0 mx-8">
                     <Image
                     src="/oh-my-list.svg"
                     alt="Logo"
-                    width={320}
+                    width={240}
                     height={0}
                     />
                 </div>

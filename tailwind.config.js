@@ -8,9 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        mainColor: "#D0DDBE",
+        main: "#D0DDBE",
         button: "#d93532",
         buttonHover: "#DD4A48", 
+        white: "#FAFAFA", 
+        green: "#99a682",
+      },
+      fontFamily: {
+        Laila: ["indieFlower", "cursive"],
       },
     },
   },
